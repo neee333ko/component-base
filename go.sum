@@ -46,6 +46,8 @@ github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9G
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/neee333ko/errors v0.0.0-20250915121023-46a5434b0311 h1:OuSIfH0p9sGC1oDAe2KAqigCmxLSTcHjmqrYPoLPulY=
 github.com/neee333ko/errors v0.0.0-20250915121023-46a5434b0311/go.mod h1:0/iq0SoLuvJeg/tsLkNsKyIdmwNgb/553N1YOrbSA5M=
+github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167 h1:Ati9mWqObUYSox8xcKOu0cQ2Oxs4otB8QJ6NAppkQZE=
+github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167/go.mod h1:0/iq0SoLuvJeg/tsLkNsKyIdmwNgb/553N1YOrbSA5M=
 github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac h1:uHhZurUTc9pjZNqM22zeuIpHUq3tVerJqcfoTtja/PU=
 github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac/go.mod h1:+7iFMxT4CLGXvm6PCowMH7F5WU7PLFK567eBXKrOe9s=
 github.com/pelletier/go-toml/v2 v2.2.2 h1:aYUidT7k73Pcl9nb2gScu7NSrKCSHIDE89b3+6Wq+LM=

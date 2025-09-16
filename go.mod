@@ -4,7 +4,7 @@ go 1.24.4
 
 require (
 	github.com/gin-gonic/gin v1.10.1
-	github.com/neee333ko/errors v0.0.0-20250915121023-46a5434b0311
+	github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167
 	github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac
 )
 
