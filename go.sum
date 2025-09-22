@@ -44,8 +44,6 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
-github.com/neee333ko/errors v0.0.0-20250915121023-46a5434b0311 h1:OuSIfH0p9sGC1oDAe2KAqigCmxLSTcHjmqrYPoLPulY=
-github.com/neee333ko/errors v0.0.0-20250915121023-46a5434b0311/go.mod h1:0/iq0SoLuvJeg/tsLkNsKyIdmwNgb/553N1YOrbSA5M=
 github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167 h1:Ati9mWqObUYSox8xcKOu0cQ2Oxs4otB8QJ6NAppkQZE=
 github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167/go.mod h1:0/iq0SoLuvJeg/tsLkNsKyIdmwNgb/553N1YOrbSA5M=
 github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac h1:uHhZurUTc9pjZNqM22zeuIpHUq3tVerJqcfoTtja/PU=
