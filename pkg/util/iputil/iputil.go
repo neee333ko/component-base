@@ -12,7 +12,10 @@ const (
 )
 
 func GetLocalIP() string {
-	addrs, _ := net.InterfaceAddrs()
+	addrs, err := net.InterfaceAddrs()
+	if err != nil {
+		return "127.0.0.1"
+	}
 
 	for _, addr := range addrs {
 		if ipnet, ok := addr.(*net.IPNet); ok {
@@ -29,11 +32,11 @@ func RemoteIP(req *http.Request) string {
 	remote := req.RemoteAddr
 
 	if r := req.Header.Get(XForwardedFor); r != "" {
-		return r
+		remote = r
 	} else if r := req.Header.Get(XRealIP); r != "" {
-		return r
+		remote = r
 	} else if r := req.Header.Get(XClientIP); r != "" {
-		return r
+		remote = r
 	} else {
 		remote, _, _ = net.SplitHostPort(remote)
 	}
