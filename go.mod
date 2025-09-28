@@ -8,12 +8,14 @@ require (
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.20.0
+	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/jinzhu/gorm v1.9.16
 	github.com/json-iterator/go v1.1.12
 	github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167
 	github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac
 	github.com/sony/sonyflake/v2 v2.2.0
 	github.com/speps/go-hashids/v2 v2.0.1
+	golang.org/x/crypto v0.23.0
 )
 
 require (
@@ -36,7 +38,6 @@ require (
 	go.uber.org/multierr v1.10.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
@@ -44,3 +45,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog v1.0.0 // indirect
 )
+
+replace gopkg.in/appleboy/gofight.v2 => github.com/appleboy/gofight/v2 v2.2.0
