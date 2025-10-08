@@ -28,7 +28,7 @@ func WordSepNormalizeWarnFunc(f *pflag.FlagSet, name string) pflag.NormalizedNam
 	return pflag.NormalizedName(name)
 }
 
-func initFS(fs *pflag.FlagSet) {
+func InitFS(fs *pflag.FlagSet) {
 	fs.SetNormalizeFunc(WordSepNormalizeFunc)
 	fs.AddGoFlagSet(flag.CommandLine)
 }
