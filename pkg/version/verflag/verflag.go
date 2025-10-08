@@ -67,6 +67,7 @@ var versionFlagName = "version"
 func Version(fs *pflag.FlagSet, basename string) {
 	p := new(version)
 	fs.VarP(p, versionFlagName, "v", fmt.Sprintf("version flag for %s", basename))
+	fs.Lookup(versionFlagName).NoOptDefVal = "true"
 }
 
 func AddFlag(fs *pflag.FlagSet, basename string) {
