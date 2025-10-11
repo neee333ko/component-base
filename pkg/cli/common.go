@@ -39,7 +39,7 @@ func InitFS(fs *pflag.FlagSet) {
 }
 
 func PrintFlagSet(fs *pflag.FlagSet) string {
-	s := "\n"
+	s := ""
 	fs.VisitAll(func(f *pflag.Flag) {
 		s += fmt.Sprintf("--%s: %s\n", f.Name, f.Value.String())
 	})
