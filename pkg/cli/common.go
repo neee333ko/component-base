@@ -38,8 +38,11 @@ func InitFS(fs *pflag.FlagSet) {
 	fs.AddGoFlagSet(flag.CommandLine)
 }
 
-func PrintFlagSet(fs *pflag.FlagSet) {
+func PrintFlagSet(fs *pflag.FlagSet) string {
+	s := "\n"
 	fs.VisitAll(func(f *pflag.Flag) {
-		fmt.Fprintf(fs.Output(), "--%s: %s\n", f.Name, f.Value.String())
+		s += fmt.Sprintf("--%s: %s\n", f.Name, f.Value.String())
 	})
+
+	return s
 }
