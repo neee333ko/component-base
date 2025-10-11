@@ -50,8 +50,8 @@ func (info *Info) ToJson() ([]byte, error) {
 	return json.Marshal(info)
 }
 
-func Get() Info {
-	return Info{
+func Get() *Info {
+	return &Info{
 		GitVersion:   GitVersion,
 		GitCommit:    GitCommit,
 		GitTreeState: GitTreeState,
