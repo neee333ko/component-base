@@ -66,7 +66,7 @@ func (object *ObjectMeta) AfterFind(tx *gorm.DB) error {
 	return nil
 }
 
-type ListOption struct {
+type ListOptions struct {
 	TypeMeta       `json:",inline"`
 	LabelSelector  string `json:"labelSelector,omitempty" form:"labelSelector"`
 	FieldSelector  string `json:"fieldSelector,omitempty" form:"fieldSelector"`
