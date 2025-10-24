@@ -70,9 +70,9 @@ type ListOptions struct {
 	TypeMeta       `json:",inline"`
 	LabelSelector  string `json:"labelSelector,omitempty" form:"labelSelector"`
 	FieldSelector  string `json:"fieldSelector,omitempty" form:"fieldSelector"`
-	TimeoutSeconds *int64 `json:"timeoutSeconds,omitempty"`
-	Limit          *int64 `json:"limit,omitempty" form:"limit"`
-	Offset         *int64 `json:"offset,omitempty" form:"offset"`
+	TimeoutSeconds int64  `json:"timeoutSeconds,omitempty"`
+	Limit          int64  `json:"limit,omitempty" form:"limit"`
+	Offset         int64  `json:"offset,omitempty" form:"offset"`
 }
 
 type ExportOptions struct {
