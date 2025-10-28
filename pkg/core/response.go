@@ -19,7 +19,7 @@ func WriteResponse(c *gin.Context, err error, data interface{}) {
 		log.Errorf("%#+v\n", err)
 		coder := errors.ParseCoder(err)
 
-		c.JSON(coder.Code(), Response{
+		c.JSON(coder.HttpStatus(), Response{
 			Code:      coder.Code(),
 			Message:   coder.Message(),
 			Reference: coder.Reference(),

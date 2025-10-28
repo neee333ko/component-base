@@ -12,7 +12,7 @@ require (
 	github.com/gosuri/uitable v0.0.4
 	github.com/jinzhu/gorm v1.9.16
 	github.com/json-iterator/go v1.1.12
-	github.com/neee333ko/errors v0.0.0-20250916131049-b8e67f46a167
+	github.com/neee333ko/errors v1.0.1
 	github.com/neee333ko/log v0.0.0-20250821104916-3943190a6aac
 	github.com/sony/sonyflake/v2 v2.2.0
 	github.com/speps/go-hashids/v2 v2.0.1
